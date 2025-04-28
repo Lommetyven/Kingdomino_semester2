@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 18
+names: ['castle', 'forest', 'forest_crown1', 'grassland', 'grassland_crown1', 'grassland_crown2', 'lake', 'lake_crown1', 'mine', 'mine_crown1', 'mine_crown2', 'mine_crown3', 'swamp', 'swamp_crown1', 'swamp_crown2', 'table', 'wheat_field', 'wheatfield_crown1']
+
+roboflow:
+  workspace: kingdomino-rejwa
+  project: kingdomino-xflns
+  version: 23
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/kingdomino-rejwa/kingdomino-xflns/dataset/23
